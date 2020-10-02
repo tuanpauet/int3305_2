@@ -107,7 +107,7 @@ class PrefixCodeTree:
             debug("There are some bits at the end of the stream that form an incomplete word. Ignoring it")
         return decoded_text
 
-        
+'''
 codebook = {'x1': [0],'x2': [1,0,0],'x3': [1,0,1],'x4': [1,1]}
 
 codeTree = PrefixCodeTree()
@@ -118,4 +118,4 @@ for symbol in codebook:
 message = codeTree.decode(b'\xd2\x9f\x20', 21)
 print(message)
 
-
+'''
